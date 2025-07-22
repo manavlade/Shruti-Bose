@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Phone, Instagram, MessageCircle } from "lucide-react"
 import { ConsultationModal } from "./consultation-modal"
 import Image from "next/image"
+import logo from "@/assets/LOGO-PNG.png";
 
 export function Header() {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false)
@@ -20,10 +21,10 @@ export function Header() {
             {/* Center Logo */}
             <div className="flex-1 flex justify-center">
               <Image
-                src="/images/main-logo.png"
+                src={logo}
                 alt="Shrutti Bose"
-                width={200}
-                height={40}
+                width={150}
+                height={25}
                 className="object-contain"
               />
             </div>
