@@ -23,7 +23,6 @@ export default function Home() {
       <NavigationSection />
       <About />
       <Courses />
-    
       <Services />
       <Gallery />
       <Testimonials />

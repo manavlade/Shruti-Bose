@@ -260,7 +260,7 @@ export function MuseRegistration() {
         </div>
 
         {/* Additional Info */}
-        <div className="text-center mt-12 max-w-3xl mx-auto">
+        {/* <div className="text-center mt-12 max-w-3xl mx-auto">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-nude-200">
             <h4 className="font-semibold text-taupe-800 mb-3">Why Become Our Muse?</h4>
             <div className="grid md:grid-cols-3 gap-6 text-sm text-taupe-600">
@@ -296,7 +296,7 @@ export function MuseRegistration() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

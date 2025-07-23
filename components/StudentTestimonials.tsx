@@ -9,19 +9,16 @@ export function StudentTestimonials() {
 
   const testimonials = [
     {
-      text: "My lips healed beautifully. She's a true artist.",
       name: "Pema",
       title: "Student",
       video: "/videos/c1.mov",
     },
     {
-      text: "Shrutti's teaching style is clear and warm. I now run my own studio!",
       name: "Jyotika",
       title: "Student",
       video: "/videos/c2.mp4",
     },
     {
-      text: "I used to be scared of machines, but her training changed everything.",
       name: "Anshu",
       title: "Student",
       video: "/videos/c3.mov",
@@ -67,15 +64,15 @@ export function StudentTestimonials() {
 
                   {/* Right side - Content */}
                   <div className="flex flex-col justify-center p-8 md:p-12">
-                    <div className="flex justify-center lg:justify-start mb-6">
+                    {/* <div className="flex justify-center lg:justify-start mb-6">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="w-6 h-6 text-blush-400 fill-current" />
                       ))}
-                    </div>
+                    </div> */}
 
-                    <blockquote className="text-xl md:text-2xl text-taupe-700 mb-8 italic leading-relaxed text-center lg:text-left">
+                    {/* <blockquote className="text-xl md:text-2xl text-taupe-700 mb-8 italic leading-relaxed text-center lg:text-left">
                       "{testimonials[currentIndex].text}"
-                    </blockquote>
+                    </blockquote> */}
 
                     <div className="flex items-center justify-center lg:justify-start gap-4">
                       <div className="w-16 h-16 bg-gradient-to-br from-blush-200 to-blush-300 rounded-full flex items-center justify-center">
