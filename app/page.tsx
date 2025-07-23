@@ -11,6 +11,8 @@ import { Courses } from "@/components/courses"
 import { WhyChooseMe } from "@/components/why-choose-me"
 import { MuseRegistration } from "@/components/muse-registration"
 import { Watermark } from "@/components/watermark"
+import { StudentTestimonials } from "@/components/StudentTestimonials"
+import Galleries from "@/components/Galley"
 
 export default function Home() {
   return (
@@ -21,9 +23,11 @@ export default function Home() {
       <NavigationSection />
       <About />
       <Courses />
+    
       <Services />
       <Gallery />
       <Testimonials />
+       <StudentTestimonials/>
       <WhyChooseMe />
       <MuseRegistration />
       <Contact />

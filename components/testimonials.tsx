@@ -9,22 +9,34 @@ export function Testimonials() {
 
   const testimonials = [
     {
+      text: "My lips healed beautifully. She's a true artist.",
+      name: "Tamanna",
+      title: "Client",
+      video: "/videos/Tamanna .MOV",
+    },
+    {
       text: "Shrutti's teaching style is clear and warm. I now run my own studio!",
-      name: "Priya",
+      name: "Kriti",
       title: "Client",
       video: "/videos/v1.MOV",
     },
     {
       text: "I used to be scared of machines, but her training changed everything.",
-      name: "Ayesha",
+      name: "Avneet",
       title: "Client",
       video: "/videos/v2.MOV",
     },
     {
       text: "My lips healed beautifully. She's a true artist.",
-      name: "Tanvi",
+      name: "Ritika",
       title: "Client",
       video: "/videos/v3.MOV",
+    },
+    {
+      text: "My lips healed beautifully. She's a true artist.",
+      name: "Simran",
+      title: "Client",
+      video: "/videos/Simran  (1).mov",
     },
   ]
 

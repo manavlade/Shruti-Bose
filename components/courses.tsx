@@ -6,6 +6,7 @@ import basic from "@/assets/basic.jpg"
 import advance from "@/assets/advance.jpg"
 import eyebrow from "@/assets/eyebrow.jpg";
 import blush from "@/assets/blush.jpg"
+import Galleries from "./Galley"
 
 
 export function Courses() {
@@ -196,6 +197,7 @@ export function Courses() {
           </div>
         </div>
       </div>
+      <Galleries/>
     </section>
   )
 }

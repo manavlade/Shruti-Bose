@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { GraduationCap, Briefcase, Flower } from "lucide-react"
 import Image from "next/image"
 import { ConsultationModal } from "./consultation-modal"
+import logo from "@/assets/LOGO-PNG.png"
 
 export function Hero() {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false)
@@ -22,7 +23,7 @@ export function Hero() {
             <div className="text-center lg:text-left">
               <div className="mb-8">
                 <Image
-                  src="/images/main-logo.png"
+                  src={logo}
                   alt="Shrutti Bose"
                   width={300}
                   height={60}
