@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Phone, Instagram, MessageCircle } from "lucide-react"
 import { ConsultationModal } from "./consultation-modal"
 import Image from "next/image"
-import logo from "@/assets/LOGO-PNG.png";
+import logo from "@/assets/Logo-1.png";
 
 export function Header() {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false)
@@ -13,7 +13,7 @@ export function Header() {
   return (
     <>
       <header className="fixed top-0 w-full bg-nude-50/95 backdrop-blur-sm z-50 border-b border-nude-200 shadow-sm">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
             {/* Left side - Empty space for balance */}
             <div className="flex-1"></div>
@@ -23,9 +23,9 @@ export function Header() {
               <Image
                 src={logo}
                 alt="Shrutti Bose"
-                width={150}
+                width={110}
                 height={25}
-                className="object-contain"
+                className=""
               />
             </div>
 
@@ -43,7 +43,7 @@ export function Header() {
                 </a>
               </div>
               <Button
-                className="bg-blush-400 hover:bg-blush-500 text-white rounded-full px-6 py-2"
+                className="bg-blush-500 text-white rounded-full px-6 py-2"
                 onClick={() => setIsConsultationModalOpen(true)}
               >
                 Book Consultation

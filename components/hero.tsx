@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { GraduationCap, Briefcase, Flower } from "lucide-react"
 import Image from "next/image"
 import { ConsultationModal } from "./consultation-modal"
-import logo from "@/assets/LOGO-PNG.png"
+import logo from "@/assets/Logo-1.png"
 
 export function Hero() {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false)
@@ -45,18 +45,18 @@ export function Hero() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Briefcase className="w-5 h-5 text-blush-500" />
-                  <span className="font-medium">5+ Years Experience</span>
+                  <span className="font-medium">6+ Years Experience</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Flower className="w-5 h-5 text-blush-500" />
-                  <span className="font-medium">Real Model Practice</span>
+                  <span className="font-medium"> 100+ clients served                  </span>
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button
                   size="lg"
-                  className="bg-blush-400 hover:bg-blush-500 text-white rounded-full px-8 py-4 text-lg shadow-lg"
+                  className="bg-blush-500 text-white rounded-full px-8 py-4 text-lg shadow-lg"
                 >
                   View Courses
                 </Button>

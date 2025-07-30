@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import logo from "@/assets/LOGO-PNG.png";
+import logo from "@/assets/Logo-1.png";
 
 export const metadata: Metadata = {
   title: 'Shrutti Bose Permanent Makeup',

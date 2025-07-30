@@ -18,7 +18,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-nude-100 text-taupe-900 relative">
       <Watermark />
-      <Header />
+      <div className="py-6" >
+        <Header />
+      </div>
       <Hero />
       <NavigationSection />
       <About />
@@ -26,7 +28,7 @@ export default function Home() {
       <Services />
       <Gallery />
       <Testimonials />
-       <StudentTestimonials/>
+      <StudentTestimonials />
       <WhyChooseMe />
       <MuseRegistration />
       <Contact />

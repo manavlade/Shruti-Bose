@@ -16,21 +16,21 @@ export function Services() {
       title: "Microblading",
       description:
         "Natural-looking, hair-stroke brows tailored to your face using mapping, pigment blend, and soft-shade techniques.",
-      price: "Starting from ₹12,000",
+      
       category: "brows",
       image: eyebrow,
     },
     {
       title: "Lip Blush",
       description: "Healed lip tint in nude, coral, or pink tones — corrects dark pigmentation and enhances shape.",
-      price: "Starting from ₹10,000",
+      
       category: "lips",
       image: lip,
     },
     {
       title: "BB Glow Treatment",
       description: "Semi-permanent foundation treatment that gives your skin a natural, glowing complexion for months.",
-      price: "Starting from ₹8,000",
+      
       category: "skin",
       image: bbglow,
     },
@@ -63,7 +63,7 @@ export function Services() {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-2 rounded-full transition-colors duration-200 font-medium ${
                   selectedCategory === category.id
-                    ? "bg-blush-400 text-white"
+                    ? "bg-blush-500 text-white"
                     : "bg-white text-taupe-600 hover:bg-nude-100 border border-nude-200"
                 }`}
               >
@@ -97,11 +97,7 @@ export function Services() {
 
                   <p className="text-taupe-600 mb-4 leading-relaxed text-sm">{service.description}</p>
 
-                  <div className="mb-6">
-                    <span className="text-blush-500 font-bold text-lg">{service.price}</span>
-                  </div>
-
-                  <Button className="w-full bg-blush-400 hover:bg-blush-500 text-white rounded-full">Book Now</Button>
+                  <Button className="w-full bg-blush-500 text-white rounded-full">Book Now</Button>
                 </div>
               </CardContent>
             </Card>

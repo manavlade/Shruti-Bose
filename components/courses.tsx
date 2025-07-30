@@ -64,31 +64,31 @@ export function Courses() {
       case "blush":
         return {
           badge: "bg-blush-100 text-blush-600",
-          button: "bg-blush-400 hover:bg-blush-500",
+          button: "bg-blush-500 hover:bg-blush-500",
           accent: "text-blush-500",
         }
       case "taupe":
         return {
           badge: "bg-taupe-100 text-taupe-600",
-          button: "bg-taupe-400 hover:bg-taupe-500",
-          accent: "text-taupe-500",
+          button: "bg-blush-500 hover:bg-blush-500",
+          accent: "text-blush-500",
         }
       case "sand":
         return {
           badge: "bg-sand-100 text-sand-600",
-          button: "bg-sand-400 hover:bg-sand-500",
-          accent: "text-sand-600",
+          button: "bg-blush-500 hover:bg-blush-500",
+          accent: "text-blush-600",
         }
       case "nude":
         return {
           badge: "bg-nude-100 text-nude-600",
-          button: "bg-nude-400 hover:bg-nude-500",
-          accent: "text-nude-600",
+          button: "bg-blush-500 hover:bg-blush-500",
+          accent: "text-blush-600",
         }
       default:
         return {
           badge: "bg-blush-100 text-blush-600",
-          button: "bg-blush-400 hover:bg-blush-500",
+          button: "bg-blush-500 hover:bg-blush-500",
           accent: "text-blush-500",
         }
     }
@@ -184,7 +184,7 @@ export function Courses() {
             programs. Each course includes hands-on practice, personalized mentorship, and ongoing support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-blush-400 hover:bg-blush-500 text-white px-8 py-3 rounded-full">
+            <Button className="bg-blush-500 hover:bg-blush-500 text-white px-8 py-3 rounded-full">
               Schedule Consultation
             </Button>
             <Button

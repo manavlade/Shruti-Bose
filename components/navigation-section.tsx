@@ -14,6 +14,12 @@ export function NavigationSection() {
       description: "Professional PMU treatments for natural, beautiful results",
       icon: "✨",
     },
+    {
+      name: "Masterclasses",
+      href: "",
+      description: "Live, hands-on PMU sessions in select cities",
+      icon: "👨‍🎓"
+    }
   ]
 
   return (
@@ -28,7 +34,7 @@ export function NavigationSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {navItems.map((item, index) => (
             <a
               key={index}
