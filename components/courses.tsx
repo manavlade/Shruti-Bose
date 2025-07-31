@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Check, Clock, Package, MessageCircle } from "lucide-react"
@@ -184,7 +186,9 @@ export function Courses() {
             programs. Each course includes hands-on practice, personalized mentorship, and ongoing support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-blush-500 hover:bg-blush-500 text-white px-8 py-3 rounded-full">
+            <Button
+              onClick={() => window.open("https://calendly.com/enquiries-shruttibose", "_blank")}
+              className="bg-blush-500 hover:bg-blush-500 text-white px-8 py-3 rounded-full">
               Schedule Consultation
             </Button>
             <Button
@@ -197,7 +201,7 @@ export function Courses() {
           </div>
         </div>
       </div>
-      <Galleries/>
+      <Galleries />
     </section>
   )
 }

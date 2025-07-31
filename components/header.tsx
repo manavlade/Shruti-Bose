@@ -2,10 +2,13 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Phone, Instagram, MessageCircle } from "lucide-react"
 import { ConsultationModal } from "./consultation-modal"
 import Image from "next/image"
 import logo from "@/assets/Logo-1.png";
+
+import insta from "@/assets/insta.png";
+import wats from "@/assets/wats.png";
+import phone from "@/assets/phone.png";
 
 export function Header() {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false)
@@ -32,14 +35,14 @@ export function Header() {
             {/* Right side - Social Icons & CTA */}
             <div className="flex-1 flex justify-end items-center space-x-4">
               <div className="flex items-center space-x-3">
-                <a href="#" className="text-taupe-500 hover:text-blush-500 transition-colors">
-                  <Instagram size={20} />
+                <a href="https://www.instagram.com/shruttibose_pmu?igsh=MXFnZ25yMjJzb2U1dw%3D%3D&utm_source=qr" className="text-taupe-500 hover:text-blush-500 transition-colors">
+                  <Image src={insta} alt="Instagram" width={20} height={20} />
                 </a>
                 <a href="#" className="text-taupe-500 hover:text-blush-500 transition-colors">
-                  <MessageCircle size={20} />
+                  <Image src={wats} alt="Whatsapp" width={20} height={20} />
                 </a>
                 <a href="tel:+1234567890" className="text-taupe-500 hover:text-blush-500 transition-colors">
-                  <Phone size={20} />
+                  <Image src={phone} alt="Phone" width={20} height={20} />
                 </a>
               </div>
               <Button

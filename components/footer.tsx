@@ -1,4 +1,8 @@
-import { Instagram, MessageCircle, Phone, Mail } from "lucide-react"
+import Image from "next/image"
+import insta from "@/assets/insta.png";
+import wats from "@/assets/wats.png";
+import mail from "@/assets/mail.png";
+import phone from "@/assets/phone.png";
 
 export function Footer() {
   return (
@@ -16,17 +20,17 @@ export function Footer() {
               premium PMU services. Empowering the next generation of beauty professionals.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-taupe-400 hover:text-blush-400 transition-colors">
-                <Instagram size={24} />
+              <a href="https://www.instagram.com/shruttibose_pmu?igsh=MXFnZ25yMjJzb2U1dw%3D%3D&utm_source=qr" className="text-taupe-400 hover:text-blush-400 transition-colors">
+                <Image src={insta} alt="Instagram" width={24} height={24} />
               </a>
               <a href="#" className="text-taupe-400 hover:text-blush-400 transition-colors">
-                <MessageCircle size={24} />
+                <Image src={wats} alt="Whatsapp" width={24} height={24} />
               </a>
               <a href="tel:+1234567890" className="text-taupe-400 hover:text-blush-400 transition-colors">
-                <Phone size={24} />
+                <Image src={phone} alt="Phone" width={24} height={24} />
               </a>
-              <a href="mailto:hello@shruttibose.com" className="text-taupe-400 hover:text-blush-400 transition-colors">
-                <Mail size={24} />
+              <a href="mailto:enquiries@shruttibose.com" className="text-taupe-400 hover:text-blush-400 transition-colors">
+                <Image src={mail} alt="Mail" width={24} height={24} />
               </a>
             </div>
           </div>

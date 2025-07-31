@@ -64,7 +64,7 @@ export function Hero() {
                   size="lg"
                   variant="outline"
                   className="border-taupe-300 text-taupe-700 hover:bg-taupe-50 rounded-full px-8 py-4 text-lg bg-transparent"
-                  onClick={() => setIsConsultationModalOpen(true)}
+                  onClick={() => window.open("https://calendly.com/enquiries-shruttibose", "_blank")}
                 >
                   Book a Consultation
                 </Button>
