@@ -47,7 +47,7 @@ export function Header() {
               </div>
               <Button
                 className="bg-blush-500 text-white rounded-full px-6 py-2"
-                onClick={() => setIsConsultationModalOpen(true)}
+                onClick={() => window.open("https://calendly.com/enquiries-shruttibose", "_blank")}
               >
                 Book Consultation
               </Button>
