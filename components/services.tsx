@@ -105,31 +105,31 @@ export function Services() {
         </div>
 
         {/* Additional Info */}
-        <div className="text-center mt-12 bg-white rounded-2xl p-8 border border-nude-200 max-w-4xl mx-auto">
-          <h3 className="font-serif text-2xl font-bold text-taupe-800 mb-4">
+        <div className="text-center mt-12 space-y-16 bg-white rounded-2xl p-8 border border-nude-200 max-w-7xl mx-auto">
+          <h3 className="font-serif text-4xl font-bold text-taupe-800 mb-4">
             Why Choose Our <span className="text-blush-500">PMU Services?</span>
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div>
-              <div className="w-12 h-12 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-20 h-20 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-blush-500 font-bold">✓</span>
               </div>
-              <h4 className="font-semibold text-taupe-800 mb-2">Premium Pigments</h4>
-              <p className="text-taupe-600 text-sm">High-quality, long-lasting pigments for natural results</p>
+              <h4 className="font-semibold text-2xl text-taupe-800 mb-2">Premium Pigments</h4>
+              <p className="text-taupe-600 text-lg">High-quality, long-lasting pigments for natural results</p>
             </div>
             <div>
-              <div className="w-12 h-12 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-20 h-20 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-blush-500 font-bold">✓</span>
               </div>
-              <h4 className="font-semibold text-taupe-800 mb-2">Sterile Environment</h4>
-              <p className="text-taupe-600 text-sm">Completely sanitized tools and workspace for your safety</p>
+              <h4 className="font-semibold text-2xl text-taupe-800 mb-2">Sterile Environment</h4>
+              <p className="text-taupe-600 text-lg">Completely sanitized tools and workspace for your safety</p>
             </div>
             <div>
-              <div className="w-12 h-12 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-20 h-20 bg-blush-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-blush-500 font-bold">✓</span>
               </div>
-              <h4 className="font-semibold text-taupe-800 mb-2">Aftercare Support</h4>
-              <p className="text-taupe-600 text-sm">Complete guidance for optimal healing and results</p>
+              <h4 className="font-semibold text-2xl text-taupe-800 mb-2">Aftercare Support</h4>
+              <p className="text-taupe-600 text-lg">Complete guidance for optimal healing and results</p>
             </div>
           </div>
         </div>
