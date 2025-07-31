@@ -7,9 +7,14 @@ import i2 from "@/assets/test/i2.jpeg";
 import i3 from "@/assets/test/i3.png"
 import i4 from "@/assets/test/i4.jpg"
 import i5 from "@/assets/test/i5.png";
-import i6 from "@/assets/test/i6.jpg"
 import i7 from "@/assets/test/i7.png";
-
+import i8 from "@/assets/test/8.jpeg"
+import i9 from "@/assets/test/9.png"
+import i10 from "@/assets/test/10.jpeg"
+import i11 from "@/assets/test/11.jpg"
+import i12 from "@/assets/test/12.jpg"
+import i13 from "@/assets/test/13.jpg"
+import i14 from "@/assets/test/14.jpg"
 
 export function Gallery() {
   const [selectedTag, setSelectedTag] = useState("all")
@@ -22,6 +27,13 @@ export function Gallery() {
     { id: 4, tag: "two-week", image: i5 },
     { id: 6, tag: "healed-lips", image: i4 },
     { id: 7, tag: "bb-glow", image: i7 },
+    { id: 8, tag: "two-week", image: i8 },
+    { id: 9, tag: "two-week", image: i9 },
+    { id: 10, tag: "two-week", image: i10 },
+    { id: 11, tag: "two-week", image: i11 },
+    { id: 12, tag: "two-week", image: i12 },
+    { id: 13, tag: "two-week", image: i13 },
+    { id: 14, tag: "two-week", image: i14 },
   ]
 
   const filteredItems = selectedTag === "all" ? galleryItems : galleryItems.filter((item) => item.tag === selectedTag)

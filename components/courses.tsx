@@ -201,7 +201,7 @@ export function Courses() {
           </div>
         </div>
       </div>
-      <Galleries />
+      {/* <Galleries /> */}
     </section>
   )
 }
