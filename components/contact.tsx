@@ -65,13 +65,15 @@ export function Contact() {
 
               <div className="mt-8 pt-8 border-t border-nude-200 text-center">
                 <p className="text-taupe-600 mb-4">Prefer chatting?</p>
-                <Button
-                  variant="outline"
-                  className="border-blush-300 text-blush-500 hover:bg-blush-50 rounded-xl px-6 bg-transparent"
-                >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Message Me on WhatsApp
-                </Button>
+                <a target="_blank" href="https://wa.me/919870168430">
+                  <Button
+                    variant="outline"
+                    className="border-blush-300 text-blush-500 hover:bg-blush-50 rounded-xl px-6 bg-transparent"
+                  >
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    Message Me on WhatsApp
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

@@ -20,16 +20,21 @@ export function Footer() {
               premium PMU services. Empowering the next generation of beauty professionals.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/shruttibose_pmu?igsh=MXFnZ25yMjJzb2U1dw%3D%3D&utm_source=qr" className="text-taupe-400 hover:text-blush-400 transition-colors">
+              <a target="_blank" href="https://www.instagram.com/shruttibose_pmu?igsh=MXFnZ25yMjJzb2U1dw%3D%3D&utm_source=qr" className="text-taupe-400 hover:text-blush-400 transition-colors">
                 <Image src={insta} alt="Instagram" width={24} height={24} />
               </a>
-              <a href="#" className="text-taupe-400 hover:text-blush-400 transition-colors">
-                <Image src={wats} alt="Whatsapp" width={24} height={24} />
+              <a
+                href="https://wa.me/919870168430"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-taupe-500 hover:text-blush-500 transition-colors"
+              >
+                <Image src={wats} alt="Whatsapp"  width={20} height={20} />
               </a>
-              <a href="tel:+1234567890" className="text-taupe-400 hover:text-blush-400 transition-colors">
+              <a href="tel:+919870168430" target="_blank" className="text-taupe-400 hover:text-blush-400 transition-colors">
                 <Image src={phone} alt="Phone" width={24} height={24} />
               </a>
-              <a href="mailto:enquiries@shruttibose.com" className="text-taupe-400 hover:text-blush-400 transition-colors">
+              <a href="mailto:enquiries@shruttibose.com" target="_blank" className="text-taupe-400 hover:text-blush-400 transition-colors">
                 <Image src={mail} alt="Mail" width={24} height={24} />
               </a>
             </div>
@@ -40,22 +45,22 @@ export function Footer() {
             <h3 className="text-nude-100 font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-taupe-300 hover:text-nude-100 transition-colors">
+                <a href="/#about" className="text-taupe-300 hover:text-nude-100 transition-colors">
                   About Shrutti
                 </a>
               </li>
               <li>
-                <a href="#gallery" className="text-taupe-300 hover:text-nude-100 transition-colors">
+                <a href="/#gallery" className="text-taupe-300 hover:text-nude-100 transition-colors">
                   Portfolio Gallery
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="text-taupe-300 hover:text-nude-100 transition-colors">
+                <a href="/#testimonials" className="text-taupe-300 hover:text-nude-100 transition-colors">
                   Client Reviews
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-taupe-300 hover:text-nude-100 transition-colors">
+                <a href="/#contact" className="text-taupe-300 hover:text-nude-100 transition-colors">
                   Contact Us
                 </a>
               </li>

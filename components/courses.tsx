@@ -191,13 +191,18 @@ export function Courses() {
               className="bg-blush-500 hover:bg-blush-500 text-white px-8 py-3 rounded-full">
               Schedule Consultation
             </Button>
-            <Button
-              variant="outline"
-              className="border-taupe-300 text-taupe-700 hover:bg-taupe-50 px-8 py-3 rounded-full bg-transparent"
+            <a
+              href="https://wa.me/919870168430"
+              target="_blank"
             >
-              <MessageCircle className="w-4 h-4 mr-2" />
-              WhatsApp for Details
-            </Button>
+              <Button
+                variant="outline"
+                className="border-taupe-300 text-taupe-700 hover:bg-taupe-50 px-8 py-3 rounded-full bg-transparent"
+              >
+                <MessageCircle className="w-4 h-4 mr-2" />
+                WhatsApp for Details
+              </Button>
+            </a>
           </div>
         </div>
       </div>

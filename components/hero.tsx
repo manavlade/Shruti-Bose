@@ -12,7 +12,7 @@ export function Hero() {
 
   return (
     <>
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-nude-50 via-sand-50 to-blush-50">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-nude-50 via-sand-50 to-blush-50" id="hero">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-10 w-32 h-32 bg-blush-200 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-40 h-40 bg-sand-200 rounded-full blur-3xl"></div>
