@@ -12,26 +12,31 @@ export function Testimonials() {
       name: "Tamanna",
       title: "Client",
       video: "/videos/Tamanna .MOV",
+      location: "Jaipur"
     },
     {
       name: "Kriti",
       title: "Client",
       video: "/videos/v1.MOV",
+      location: "Kanpur"
     },
     {
       name: "Avneet",
       title: "Client",
       video: "/videos/v2.MOV",
+      location: "Delhi"
     },
     {
       name: "Ritika",
       title: "Client",
       video: "/videos/v3.MOV",
+      location: "Delhi"
     },
     {
       name: "Simran",
       title: "Client",
       video: "/videos/Simran  (1).mov",
+      location: "Chandigarh"
     },
   ]
 
@@ -96,6 +101,9 @@ export function Testimonials() {
                         </div>
                         <div className="text-taupe-600">
                           {testimonials[currentIndex].title}
+                        </div>
+                        <div className="text-taupe-600">
+                          {testimonials[currentIndex].location}
                         </div>
                       </div>
                     </div>

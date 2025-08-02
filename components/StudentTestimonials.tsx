@@ -12,16 +12,19 @@ export function StudentTestimonials() {
       name: "Pema",
       title: "Student",
       video: "/videos/c1.mov",
+      location: "Delhi"
     },
     {
       name: "Jyotika",
       title: "Student",
       video: "/videos/c2.mp4",
+      location: "Uttarakhand"
     },
     {
       name: "Anshu",
       title: "Student",
       video: "/videos/c3.mov",
+      location: "Nagaland"
     },
   ]
 

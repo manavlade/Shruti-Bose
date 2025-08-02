@@ -28,7 +28,7 @@ export function About() {
             <div className="text-2xl font-medium text-charcoal-800 mb-6">Hi, I'm Shrutti.</div>
 
             <p className="text-lg text-charcoal-700 mb-6 leading-relaxed">
-              Over the past 5 years, I've trained 200+ students and helped them launch successful PMU careers. My
+              Over the past 6+ years, I've trained 200+ students and helped them launch successful PMU careers. My
               mission is simple — to provide you with not just skills, but confidence, clients, and clarity.
             </p>
 

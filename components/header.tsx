@@ -10,9 +10,11 @@ import insta from "@/assets/insta.png"
 import wats from "@/assets/wats.png"
 import phone from "@/assets/phone.png"
 import { Menu, X } from "lucide-react" // You can also use Heroicons or any other icon lib
+import { useRouter } from "next/navigation"
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const router = useRouter();
 
   return (
     <>
@@ -22,6 +24,7 @@ export function Header() {
             {/* Logo */}
             <div className="flex items-center">
               <Image
+              onClick={() => router.push("/")}
                 src={logo}
                 alt="Shrutti Bose"
                 width={110}
@@ -31,7 +34,7 @@ export function Header() {
             </div>
 
             {/* Desktop Nav Links */}
-            <nav className="hidden md:flex gap-6 text-sm font-medium">
+            <nav className="hidden md:flex gap-6 text-lg font-medium">
               <a href="/#hero">Home</a>
               <a href="/#courses">Courses</a>
               <a href="/#services">Services</a>
@@ -67,7 +70,6 @@ export function Header() {
               </Button>
             </div>
 
-            {/* Hamburger Icon (Mobile Only) */}
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -79,7 +81,6 @@ export function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-nude-50 border-t border-nude-200 shadow-md">
             <nav className="flex flex-col space-y-4 px-6 py-4 text-sm font-medium">
